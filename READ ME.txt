@@ -1,2 +1,0 @@
-I recommend opening this files for IP5 in either Microsoft Edge Browser or Internet Explorer. I did not want to work for me at first but once I tried on an older computer with a older verion of Internet explorer it worked. After conducting reseach, I found out this is because AJAX isn't meant to be ran locally which is why other browsers wont allow it for security issues. 
-P.S. This was a very fun class and I really like your teaching style. GET WELL SOON!
