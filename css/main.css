@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  margin: 0;
+  color: black;
+}
+
+p {
+  margin: 35px;
+  font-weight: 600;
+}
+
+/* Navigation Bar */
+
+.menu-icon {
+  float: left;
+  width: 45px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.top-nav {
+ background-color: #26b7d4;
+ overflow: hidden;
+ padding: 6px;
+}
+
+.top-nav a {
+ float: right;
+ color: #f2f2f2;
+ text-align: center;
+ text-decoration: none;
+ list-style: none;
+ padding: 12px 12px;
+ margin: 7px;
+ font-size: 1rem;
+}
+
+.top-nav a:hover {
+ background-color: #47a8bb;
+ color: black;
+}
+
+.top-nav a.active {
+ background-color: #d45a26;
+ color: white;
+}
+
+.nav-list {
+ list-style: none;
+ margin: 0;
+}
+
+
+/*Home Page*/
+
+.top-container {
+  background-color: #d45a26;
+  margin: 0;
+  padding-bottom: 10px;
+  height: 575px;
+}
+
+.heading-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.content  {
+  text-align: center;
+  padding: 25px;
+}
+
+.gamepad, .contact-img {
+  width: 150px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+.game-list {
+  list-style: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: auto;
+}
+
+.game-list li {
+  display: inline;
+  padding-left: 10px;
+}
+
+/* Xquery Page */
+
+.screenshot {
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.info {
+  text-align: center;
+  padding: 25px;
+}
+
+.content2 {
+  text-align: center;
+
+}
+
+.switch {
+  background-color: #7dcc93;
+  font-size: 0;
+  padding: 50px;
+}
+
+.wii-u {
+  background-color: #f76160;
+ font-size: 0;
+ padding: 50px;
+}
+
+.wii {
+  background-color: #66a7d5;
+  font-size: 0;
+  padding: 50px;
+}
+
+.gamecube {
+  background-color: #F5F5F5;
+  font-size: 0;
+  padding: 50px;
+}
+
+.n64 {
+  background-color: #f8c687;
+  font-size: 0;
+  padding: 50px;
+}
+
+/* Contact Page */
+
+.div1{
+  text-align: center;
+  padding: 25px 25px;
+}
+
+.div2 {
+  margin: 25px 45px;
+}
+
+input[type=text], select {
+  padding: 12px 25px;
+  margin: 7px 0px;
+  border: 1px solid #26b7d4;
+  border-radius: 5px;
+}
+
+.contact-text {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.bttn {
+  margin: 20px 0px;
+}
+
+/* AJAX Pages */
+
+.btn-div {
+  background: #f5f6fa;
+  text-align: center;
+}
+
+.xml-btn {
+  margin-bottom: 40px;
+}
+
+
+/* Footer */
+
+#foot {
+  background-color: #26b7d4;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}

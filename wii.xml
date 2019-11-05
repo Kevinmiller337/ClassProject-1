@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nintendo-wii>
+
+  <games>
+    <title>007quantumofsolace</title>
+    <developer>beenox</developer>
+    <release-date>2008-10-31</release-date>
+    <price>7.30</price>
+  </games>
+
+  <games>
+    <title>101-in-1partymegamix</title>
+    <developer>nordcurrent</developer>
+    <release-date>2009-10-27</release-date>
+    <price>0.85</price>
+  </games>
+
+  <games>
+    <title>abbayoucandance</title>
+    <developer>ubisoft</developer>
+    <release-date>2011-11-15</release-date>
+    <price>2.35</price>
+  </games>
+
+  <games>
+    <title>and-kensaku	</title>
+    <developer>shift</developer>
+    <release-date>2008-11-25</release-date>
+    <price>2.76</price>
+  </games>
+
+  <games>
+    <title>activeaifeexplorer</title>
+    <developer>namcobandai</developer>
+    <release-date>2010-10-20</release-date>
+    <price>8.95</price>
+  </games>
+
+  <games>
+    <title>abctotal</title>
+    <developer>korner-entertainment</developer>
+    <release-date>2011-03-03</release-date>
+    <price>16.25</price>
+  </games>
+
+  <games>
+    <title>actiongirlzracing</title>
+    <developer>datadesigninteractive</developer>
+    <release-date>2007-12-07</release-date>
+    <price>6.35</price>
+  </games>
+
+  <games>
+    <title>adibouandmagicalseasons</title>
+    <developer>eko-software</developer>
+    <release-date>2009-11-01</release-date>
+    <price>10.01</price>
+  </games>
+
+  <games>
+    <title>alienmonsterbowlingleague</title>
+    <developer>perpetualfxcreative</developer>
+    <release-date>2009-10-20</release-date>
+    <price>7.68</price>
+  </games>
+
+  <games>
+    <title>allstarcheersquad</title>
+    <developer>gorillasystems</developer>
+    <release-date>2008-10-27</release-date>
+    <price>14.33</price>
+  </games>
+
+  <games>
+    <title>aliensintheattic</title>
+    <developer>revistronic</developer>
+    <release-date>2009-08-04</release-date>
+    <price>3.79</price>
+  </games>
+
+  <games>
+    <title>allstarkarate</title>
+    <developer>blitz-games</developer>
+    <release-date>2010-04-20</release-date>
+    <price>11.95</price>
+  </games>
+
+  <games>
+    <title>alvinandthechipmunks</title>
+    <developer>sensorysweep-studios</developer>
+    <release-date>2007-12-04</release-date>
+    <price>25.00</price>
+  </games>
+
+  <games>
+    <title>americasnexttopmodel</title>
+    <developer>neopica</developer>
+    <release-date>2010-06-01</release-date>
+    <price>6.70</price>
+  </games>
+
+  <games>
+    <title>amfbowlingworldlanes</title>
+    <developer>vir2l-studios</developer>
+    <release-date>2008-11-25</release-date>
+    <price>13.65</price>
+  </games>
+
+</nintendo-wii>

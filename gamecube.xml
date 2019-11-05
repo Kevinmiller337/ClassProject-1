@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nintendo-gamecube>
+
+  <games>
+    <title>18wheeleramericanprotrucker</title>
+    <developer>cclaimstudioscheltenham</developer>
+    <release-date>2002-02-18</release-date>
+    <price>12.92</price>
+  </games>
+
+  <games>
+    <title>2002fifaworldcup</title>
+    <developer>tose</developer>
+    <release-date>2002-04-30</release-date>
+    <price>16.44</price>
+  </games>
+
+  <games>
+    <title>2006fifaworldcup</title>
+    <developer>eacanada</developer>
+    <release-date>2006-04-24</release-date>
+    <price>19.49</price>
+  </games>
+
+  <games>
+    <title>4x4evo2</title>
+    <developer>terminalreality</developer>
+    <release-date>2002-10-29</release-date>
+    <price>4.29</price>
+  </games>
+
+  <games>
+    <title>aggressiveinline</title>
+    <developer>undergrounddevelopment</developer>
+    <release-date>2002-07-31</release-date>
+    <price>3.60</price>
+  </games>
+
+  <games>
+    <title>alienaominid</title>
+    <developer>thebehemoth</developer>
+    <release-date>2004-11-23</release-date>
+    <price>2.72</price>
+  </games>
+
+  <games>
+    <title>Amazing Island</title>
+    <developer>Ancient</developer>
+    <release-date>2004-01-15</release-date>
+    <price>0.36</price>
+  </games>
+
+  <games>
+    <title>americanchopper2fullthrottle</title>
+    <developer>creat-studios</developer>
+    <release-date>2005-11-29</release-date>
+    <price>16.05</price>
+  </games>
+
+  <games>
+    <title>animaniacsthegreatedgarhunt</title>
+    <developer>warthog-games</developer>
+    <release-date>2005-05-27</release-date>
+    <price>10.29</price>
+  </games>
+
+  <games>
+    <title>thetantbully</title>
+    <developer>artificalmindandmovement</developer>
+    <release-date>2006-07-24</release-date>
+    <price>7.71</price>
+  </games>
+
+  <games>
+    <title>aquamanbattleforatlantis</title>
+    <developer>luckychickengames</developer>
+    <release-date>2006-07-24</release-date>
+    <price>14.36</price>
+  </games>
+
+  <games>
+    <title>armymensargeswar</title>
+    <developer>the3docompany</developer>
+    <release-date>2004-08-21</release-date>
+    <price>8.48</price>
+  </games>
+
+  <games>
+    <title>abckyardbaseball</title>
+    <developer>humongous-games</developer>
+    <release-date>2003-03-31</release-date>
+    <price>9.15</price>
+  </games>
+
+  <games>
+    <title>avatarthelastairbender</title>
+    <developer>thq</developer>
+    <release-date>2006-10-10</release-date>
+    <price>26.98</price>
+  </games>
+
+  <games>
+    <title>backyardbaseball2007</title>
+    <developer>gamebrains</developer>
+    <release-date>2006-04-03</release-date>
+    <price>12.59</price>
+  </games>
+
+</nintendo-gamecube>

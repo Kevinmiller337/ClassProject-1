@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nintendo-wiiu>
+
+  <games>
+    <title>007legends</title>
+    <developer>eurocom</developer>
+    <release-date>2012-12-11</release-date>
+    <price>10.99</price>
+  </games>
+
+  <games>
+    <title>1001spikes</title>
+    <developer>8bits-fanatics</developer>
+    <release-date>2014-06-03</release-date>
+    <price>2.35</price>
+  </games>
+
+  <games>
+    <title>153handvideopoker</title>
+    <developer>skunk-software</developer>
+    <release-date>2016-06-04</release-date>
+    <price>1.50</price>
+  </games>
+
+  <games>
+    <title>3souls</title>
+    <developer>redcolumn</developer>
+    <release-date>2016-07-28</release-date>
+    <price>4.22</price>
+  </games>
+
+  <games>
+    <title>absolutelyunstoppableminerun</title>
+    <developer>shyegg</developer>
+    <release-date>2017-04-27</release-date>
+    <price>0.99</price>
+  </games>
+
+  <games>
+    <title>acealiencleanupelite</title>
+    <developer>matthewflewelling</developer>
+    <release-date>2017-03-16</release-date>
+    <price>3.96</price>
+  </games>
+
+  <games>
+    <title>aceofseafood</title>
+    <developer>nussoft</developer>
+    <release-date>2016-11-30</release-date>
+    <price>1.23</price>
+  </games>
+
+  <games>
+    <title>actitoutagameofcharades</title>
+    <developer>snapfingerclick</developer>
+    <release-date>2016-10-16</release-date>
+    <price>10.65</price>
+  </games>
+
+  <games>
+    <title>blue-collarastronaut</title>
+    <developer>mutatedsoftware</developer>
+    <release-date>2017-03-14</release-date>
+    <price>14.97</price>
+  </games>
+
+  <games>
+    <title>adventureparty</title>
+    <developer>supericon</developer>
+    <release-date>2016-08-20</release-date>
+    <price>3.68</price>
+  </games>
+
+  <games>
+    <title>Adventure Time</title>
+    <developer>wayforward-technologies</developer>
+    <release-date>2013-10-19</release-date>
+    <price>12.56</price>
+  </games>
+
+  <games>
+    <title>Alphadia Genesis</title>
+    <developer>tictoc-games</developer>
+    <release-date>2015-06-04</release-date>
+    <price>2.90</price>
+  </games>
+
+  <games>
+    <title>adventuresofpip</title>
+    <developer>viciouscycle-software</developer>
+    <release-date>2015-10-20</release-date>
+    <price>0.35</price>
+  </games>
+
+  <games>
+    <title>aenigmaos</title>
+    <developer>akies-games</developer>
+    <release-date>2016-09-15</release-date>
+    <price>5.64</price>
+  </games>
+
+  <games>
+    <title>aliceinwonderland</title>
+    <developer>braverock-games</developer>
+    <release-date>2016-09-01</release-date>
+    <price>20.50</price>
+  </games>
+
+</nintendo-wiiu>

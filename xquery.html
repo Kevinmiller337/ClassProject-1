@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>XQuery Screenshots</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+
+  <body onload="myTitle2()">
+
+    <div class="top-nav">
+      <img class="menu-icon" src="images/menu.png" alt="menu-icon">
+      <ul class="nav-list">
+        <li><a href="n64.html">N64</a></li>
+        <li><a href="gamecube.html">GameCube</a></li>
+        <li><a href="wii.html">Wii</a></li>
+        <li><a href="wiiu.html">Wii_U</a></li>
+        <li><a href="switch.html">Switch</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="active" href="xquery.html">XQuery</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+
+    <div class="top-container">
+      <img class="heading-img" src="images/header-img.png" alt="heading-image">
+    </div>
+
+    <div class="info">
+      <h1 id="id3"></h1>
+      <p>Here are the five screenshots needed for IP2!</p>
+      <button class="btn btn-primary" onclick="myTimeStamp()" onmouseover="mOver(this)" onmouseout="mOut(this)">Time Stamp</button>
+      <p id="id4"></p>
+    </div>
+    
+    <div class="content2">
+      <div class="switch">
+        <img class="screenshot" src="images/switch.png" alt="xqeury-results-1">
+      </div>
+
+      <div class="wii-u">
+        <img class="screenshot" src="images/wii_u.png" alt="xqeury-results-2">
+      </div>
+
+      <div class="wii">
+        <img class="screenshot" src="images/wii.png" alt="xqeury-results-3">
+      </div>
+
+      <div class="gamecube">
+        <img class="screenshot" src="images/gamecube.png" alt="xqeury-results-4">
+      </div>
+
+      <div class="n64">
+        <img class="screenshot" src="images/n64.png" alt="xqeury-results-5">
+      </div>
+    </div>
+
+    <footer id="foot">
+      <p> 💣 Made by Kevin Miller 2019 💥 </p>
+    </footer>
+
+      <script>
+        function myTitle2() {
+          var xqueryTitle = document.title;
+          document.getElementById("id3").innerHTML = xqueryTitle;
+        }
+      </script>
+
+      <script>
+        function myTimeStamp() {
+          var timeDate = document.lastModified;
+          document.getElementById("id4").innerHTML = timeDate;
+        }
+      </script>
+
+      <script>
+        function mOver(obj) {
+          obj.innerHTML = "Click Me!"
+        }
+
+        function mOut(obj) {
+          obj.innerHTML = "Time Stamp"
+        }
+      </script>
+
+  </body>
+</html>

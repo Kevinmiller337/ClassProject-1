@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Game System Records</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+
+  <body onload="myTitle()">
+
+    <div class="top-nav">
+      <img class="menu-icon" src="images/menu.png" alt="menu-icon">
+      <ul class="nav-list">
+        <li><a href="n64.html">N64</a></li>
+        <li><a href="gamecube.html">GameCube</a></li>
+        <li><a href="wii.html">Wii</a></li>
+        <li><a href="wiiu.html">Wii_U</a></li>
+        <li><a href="switch.html">Switch</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="xquery.html">XQuery</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
+      </ul>
+    </div>
+
+    <div class="top-container">
+      <img class="heading-img" src="images/header-img.png" alt="heading-image">
+    </div>
+
+    <div class="content">
+      <h1 id="id1"></h1>
+      <img class="gamepad" src="images/gamepad.jpg" alt="gamepad-image">
+
+      <nav class="nav">
+        <ul class="game-list">
+          <li><a href="switch.xml">Nintendo Switch</a></li>
+          <li><a href="wii_u.xml">Nintendo Wii U</a></li>
+          <li><a href="wii.xml">Nintendo Wii</a></li>
+          <li><a href="gamecube.xml">Nintendo GameCube</a></li>
+          <li><a href="n64.xml">Nintendo 64</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn btn-primary" onclick="myUrl()">Home Link</button>
+      <p id="id2"></p>
+
+    </div>
+
+    <footer id="foot">
+      <p> 💣 Made by Kevin Miller 2019 💥 </p>
+    </footer>
+
+    <script>
+       alert('Welcome, enjoy your visit!')
+    </script>
+
+    <script>
+      document.querySelector("h1").style.color = "#a9a9a9";
+    </script>
+
+    <script>
+      function myTitle() {
+        var homeTitle = document.title;
+        document.getElementById("id1").innerHTML = homeTitle;
+        }
+    </script>
+
+    <script>  
+      function myUrl() {
+        var homeUrl = document.URL;
+        document.getElementById("id2").innerHTML = homeUrl;
+      }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>GameCube</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <style>
+        table,
+        th,
+        td {
+            border: 5px solid #d45a26;
+            border-collapse: collapse;
+        }
+    
+        th,
+        td {
+            padding: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="top-nav">
+        <img class="menu-icon" src="images/menu.png" alt="menu-icon">
+        <ul class="nav-list">
+            <li><a href="n64.html">N64</a></li>
+            <li><a class="active" href="gamecube.html">GameCube</a></li>
+            <li><a href="wii.html">Wii</a></li>
+            <li><a href="wiiu.html">Wii_U</a></li>
+            <li><a href="switch.html">Switch</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="xquery.html">XQuery</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </div>
+    
+    <div class="top-container">
+        <img class="heading-img" src="images/header-img.png" alt="heading-image">
+    </div>
+
+    <div class="btn-div">
+        <br><br>
+
+        <h1>Nintendo GameCube Collection</h1>
+                
+        <p>Browse our game archives by pressing the button.</p>
+
+        <button class="btn btn-success xml-btn" type="button" onclick="loadXMLDoc()">GameCube Collection</button>
+
+        <table id="table5"></table>
+
+    </div>
+
+    <footer id="foot">
+        <p> 💣 Made by Kevin Miller 2019 💥 </p>
+    </footer>
+<script>
+    function loadXMLDoc() {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function () {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                myFunction(xmlhttp);
+            }
+        };
+        xmlhttp.open("GET", "gamecube.xml", true);
+        xmlhttp.send();
+    }
+
+    function myFunction(xml) {
+        var i;
+        var xmlDoc = xml.responseXML;
+        var table = "<tr><th>Game Name</th><th>developer</th><th>proce</th></tr>";
+        var x = xmlDoc.getElementsByTagName("games");
+        for (i = 0; i < x.length; i++) {
+            table += "<tr><td>" +
+                x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue +
+                "</td><td>" +
+                x[i].getElementsByTagName("developer")[0].childNodes[0].nodeValue +
+                "</td><td>" +
+                x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue +
+                "</td>\</tr>"
+                ;
+        }
+        document.getElementById("table5").innerHTML = table;
+    }
+</script>
+
+
+</html>

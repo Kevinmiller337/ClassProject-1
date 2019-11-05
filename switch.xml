@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nintendo-switch>
+
+  <games>
+    <title>beakforcistbattle</title>
+    <developer>lucidsheep-games</developer>
+    <release-date>2018-04-12</release-date>
+    <price>9.99</price>
+  </games>
+
+  <games>
+    <title>killallzombies</title>
+    <developer>beatshapers</developer>
+    <release-date>2019-01-24</release-date>
+    <price>19.99</price>
+  </games>
+
+  <games>
+    <title>1-2-switch</title>
+    <developer>nintendoepd</developer>
+    <release-date>2017-03-03</release-date>
+    <price>49.99</price>
+  </games>
+
+  <games>
+    <title>10secondrunreturns</title>
+    <developer>blueprint</developer>
+    <release-date>2018-01-25</release-date>
+    <price>4.99</price>
+  </games>
+
+  <games>
+    <title>2064readonlymemoriesintegral</title>
+    <developer>midboss</developer>
+    <release-date>2018-09-24</release-date>
+    <price>20.64</price>
+  </games>
+
+  <games>
+    <title>20xx</title>
+    <developer>batterystaplegames</developer>
+    <release-date>2018-07-10</release-date>
+    <price>17.99</price>
+  </games>
+
+  <games>
+    <title>30-in-1gamecollection</title>
+    <developer>digitalbards</developer>
+    <release-date>2019-05-30</release-date>
+    <price>14.99</price>
+  </games>
+
+  <games>
+    <title>36fragmentsofmidnight</title>
+    <developer>petitegames</developer>
+    <release-date>2017-09-14</release-date>
+    <price>2.99</price>
+  </games>
+
+  <games>
+    <title>3dminiolf</title>
+    <developer>joindots</developer>
+    <release-date>2018-02-04</release-date>
+    <price>15.99</price>
+  </games>
+
+  <games>
+    <title>60seconds!</title>
+    <developer>robotGentleman</developer>
+    <release-date>2017-12-18</release-date>
+    <price>7.99</price>
+  </games>
+
+  <games>
+    <title>6180themoon</title>
+    <developer>turtlecream</developer>
+    <release-date>2018-05-24</release-date>
+    <price>3.50</price>
+  </games>
+
+  <games>
+    <title>7billionhumans</title>
+    <developer>tomorrowcorporation</developer>
+    <release-date>2018-10-25</release-date>
+    <price>13.65</price>
+  </games>
+
+  <games>
+    <title>88heroes</title>
+    <developer>bitmapbureau</developer>
+    <release-date>2017-10-10</release-date>
+    <price>29.50</price>
+  </games>
+
+  <games>
+    <title>99Seconds</title>
+    <developer>enjoyup-games</developer>
+    <release-date>2019-03-07</release-date>
+    <price>2.99</price>
+  </games>
+
+  <games>
+    <title>99vidas</title>
+    <developer>qubyteinteractive</developer>
+    <release-date>2018-11-22</release-date>
+    <price>4.50</price>
+  </games>
+
+</nintendo-switch>
